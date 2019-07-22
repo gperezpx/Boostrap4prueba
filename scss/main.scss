@@ -9,3 +9,16 @@ html
 {
     font-size: 13px;
 }
+.card:hover 
+{
+    box-shadow: 0 0 10px #0c0c0c3b;
+}
+//----------------------------------------
+//        MEDIAS QUERIES
+//----------------------------------------
+@media (min-width: 768px)
+{
+    html{
+        font-size: 16px;
+    }
+}
