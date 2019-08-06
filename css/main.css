@@ -25,6 +25,10 @@ html {
 .card:hover {
   box-shadow: 0 0 10px #0c0c0c3b; }
 
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
 @media (min-width: 768px) {
   html {
     font-size: 16px; } }
