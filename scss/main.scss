@@ -1,7 +1,39 @@
 //---------------------------------------
 //       PATRON DE COLORES
 //---------------------------------------
+$principal: #ff401c;
+$texto: #ff401c;
 
+//---------------------------------------
+//SOBREESCRIBIENDO LAS CLASES DE BOOTSTRAP
+//---------------------------------------
+.bg-primary
+{
+    background-color: $principal !important;
+}
+.text-primary
+{
+    color: $texto !important;
+}
+.btn-primary
+{
+    background-color: $principal !important;
+    border-color: darken($principal, 20%) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus
+{
+    background-color: darken($principal, 10%) !important;
+}
+.btn-primary:active
+{
+    background-color: darken($principal, 20%) !important;
+    border-color: darken($principal, 30%) !important;
+}
+.btn-primary:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba($principal, 0.5) !important;
+}
 //----------------------------------------
 //        ESTILOS DEL DISE;O
 //----------------------------------------
